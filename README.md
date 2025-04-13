@@ -22,6 +22,9 @@ hostpci1 is a passed through NVMe drive. Can be skipped if not doing this.
 If display isn't set to default the GPU doesn't work. (code 43)
 
 
+
+## To disable closing lid powering off machine
+
 edit `/etc/systemd/logind.conf` 
 
 ```ini
